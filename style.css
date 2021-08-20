@@ -116,6 +116,59 @@ body{
     top: 300px;
 }
 
+/* responsive look */
+
+
+@media screen and (max-width: 600px){
+    #container{
+        width: 95%;
+        height: 95vh;
+        position: relative;
+        top: -195px;
+    }  
+    #weightguide{
+        width:100vw;
+        position: absolute;
+        top: 160px;
+    }
+    #height{
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        width: 100vw;
+    }
+    #weight{
+        position: absolute;
+        top: 55%;
+        left: 10%;
+        width: 100vw;
+    }
+    #cm{
+        position: absolute;
+        top: 45%;
+        left: 10%;
+        width: 70vw;
+    }
+    #kg{
+        position: absolute;
+        top: 60%;
+        left: 10%;
+        width: 70vw;
+    }
+    #submit{
+        position:absolute;
+        top: 70%;
+        width: 70vw;
+        left: 35px;
+        height: 40px;
+    }
+    #result{
+        position: absolute;
+        top: 80%;
+        left: 35px;
+        font-size: 26px;
+    }
+}
 
 
 

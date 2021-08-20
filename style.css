@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, #090979, #00d4ff);
+    font-family: 'poppins', sans-serif;
+}
+
+#container{
+    background-color: white;
+    width: 60%;
+    height: 60vh;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 30%);
+    box-shadow: 10px 10px 50px rgba(0,0,0,0.4);
+}
+.leftdiv{
+    width: 30%;
+}
+.leftdiv h1{
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(63, 14, 196);
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+#weightguide{
+    font-weight: bolder;
+    position: relative;
+    left: 30px;
+    top: 170px;
+    color: rgb(63, 14, 196);
+    font-size: 14px;
+}
+#weightguide h2{
+    font-size: 30px;
+}
+
+.rightdiv{
+    display: flex;
+    justify-content: end;
+    color: rgb(63, 14, 196);
+}
+#height{
+    font-weight: bold;
+    font-size: 24px;
+    position: absolute;
+    right: 300px;
+    top: 30px;
+}
+#cm{
+    width: 207px;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: rgb(63, 14, 196);
+    padding: 15px;
+    outline: none;
+    border: 2px solid rgb(63, 14, 196);
+    background: transparent;
+    position: absolute;
+    right: 240px;
+    top: 70px;
+}
+#weight{
+    font-weight: bold;
+    font-size: 24px;
+    position: absolute;
+    right: 300px;
+    top: 150px;
+}
+#kg{
+    width: 207px;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: rgb(63, 14, 196);
+    padding: 15px;
+    outline: none;
+    border: 2px solid rgb(63, 14, 196);
+    background: transparent;
+    position: absolute;
+    right: 240px;
+    top: 190px;
+}
+
+#submit{
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    background-color: rgb(63, 14, 196);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 130px;
+    right: 70px;
+}
+#submit:hover{
+    color: rgb(63, 14, 196);
+    border: 2px solid rgb(63, 14, 196);
+    background: transparent;
+}
+
+#result{
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    right: 240px;
+    top: 300px;
+}
+
+
+
+
+
+
+
+
+
+
